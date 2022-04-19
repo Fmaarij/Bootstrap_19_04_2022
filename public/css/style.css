@@ -21261,13 +21261,13 @@ nav div img {
   width: 70px !important;
 }
 
-.banner img {
-  height: 200px;
+#banner {
+  height: 250px;
+  width: 100%;
 }
 
 @media (max-width: 575px) {
   .quatrediv {
-    display: flex;
     flex-direction: column !important;
   }
   .quatrediv .deuxfirstdiv {
@@ -21276,9 +21276,11 @@ nav div img {
   .quatrediv .deuxlastdiv {
     flex-direction: column !important;
   }
+
   footer {
     flex-direction: column !important;
   }
+
   .iconn {
     flex-direction: column;
   }
